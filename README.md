@@ -10,7 +10,7 @@ The dashboard has eight tabs:
 
 | Tab | What it shows |
 |-----|---------------|
-| **Annual overview** | Annual air temperature (mean/max/min), soil temperature (30 cm & 100 cm), total rainfall, and seasonal rainfall (winter/spring/summer/autumn). Each with linear or quadratic trend and a projection to 2050. |
+| **Annual overview** | Annual or seasonal (winter/spring/summer/autumn) air temperature (mean/max/min), soil temperature (30 cm & 100 cm), and total rainfall. Each with linear or quadratic trend and a projection to 2050. |
 | **Temperature extremes** | 12 indices: warm/hot/very-hot days, heatwave streaks, frost/hard-frost/icing days, tropical nights, last spring frost, and annual record highs/lows. |
 | **Ground extremes** | Soil-temperature extremes at 30 cm and 100 cm: cold/frost/warm/hot-soil days, growing-season length, annual soil max/min. |
 | **Rainfall extremes** | Heavy-rain-day counts, wettest day, share of rain from very wet days, dry/wet spells, and drought-style metrics (longest marginal-rain stretch, dry months). |
