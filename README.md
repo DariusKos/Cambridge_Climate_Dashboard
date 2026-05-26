@@ -24,9 +24,10 @@ The dashboard has eight tabs:
 - **Air & soil temperature**: Met Office MIDAS Open (via CEDA), Cambridge Botanic Garden, station 00454.
 - **Rainfall**: NOAA GHCN-Daily, Cambridge NIAB.
 
+The different sources have been chosen as the Botanic Garden station had many incomplete years of rain recording.
 The reference period for anomalies and the SPEI calibration is the WMO standard climate normal, **1961–1990** (labelled 1960–1990 in the UI as the 1960 observation is included where available).
 
-## Rebuilding the dashboard yourself
+## Rebuilding the dashboard yourself or for other locations
 
 ```bash
 # 1. Install dependencies
@@ -45,6 +46,8 @@ python3 build_dashboard.py
 ```
 
 If `climate_indices` is not installed, the script still runs — it simply omits the Drought (SPEI) tab.
+
+For other locations you'll need to access and download your own data from https://data.ceda.ac.uk/badc/ukmo-midas-open/data and/or https://www.ncei.noaa.gov/cdo-web/search?datasetid=GHCND
 
 ## Methodology notes
 
