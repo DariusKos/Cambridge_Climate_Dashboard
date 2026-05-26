@@ -47,7 +47,7 @@ python3 build_dashboard.py
 
 If `climate_indices` is not installed, the script still runs — it simply omits the Drought (SPEI) tab.
 
-For other locations you'll need to access and download your own data from https://data.ceda.ac.uk/badc/ukmo-midas-open/data and/or https://www.ncei.noaa.gov/cdo-web/search?datasetid=GHCND. There is also a merging script in the "data" folder as the CEDA data is 1 csv per year.
+For other locations you'll need to access and download your own data from https://data.ceda.ac.uk/badc/ukmo-midas-open/data and/or https://www.ncei.noaa.gov/cdo-web/search?datasetid=GHCND. There is also a merging script in the "data" folder as the Met Office data is 1 csv per year.
 
 ## Methodology notes
 
