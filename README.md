@@ -54,7 +54,7 @@ For other locations you'll need to access and download your own data from https:
 - **Trends**: continuous metrics use ordinary least squares; count metrics
   (days per year) use Negative Binomial regression with a log link so
   projections stay non-negative. Linear vs. quadratic is chosen by AIC, only
-  preferring quadratic when it improves AIC by at least 2.
+  preferring quadratic when it improves AIC by at least 2. There is **no** underlying climate modelling, just a mathematical prediction of the trend.
 - **Incomplete years**: years with fewer than 340 daily observations are shown
   in striped grey and excluded from trend fits.
 - **SPEI**: potential evapotranspiration is estimated with the Hargreaves
