@@ -63,7 +63,7 @@ For other locations you'll need to access and download your own data from https:
   Hargreaves PET is temperature-based, the SPEI here reflects evaporative
   demand as estimated from temperature, not a full energy-balance calculation.
 
-These are statistical descriptions and extrapolations of the historical record,
+Again, these are statistical descriptions and extrapolations of the historical record,
 **not** climate-model projections.
 
 ## Licence / attribution
