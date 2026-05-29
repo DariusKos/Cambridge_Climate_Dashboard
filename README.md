@@ -1,6 +1,6 @@
 # Cambridge Climate Dashboard
 An interactive, single-page dashboard exploring over a century of weather observations from **Cambridge, UK** — air temperature, soil temperature, rainfall, and a temperature-aware drought index.  It is built from a single Python script that reads three CSV files and writes one self-contained HTML file. 
-If you just want to look at the Dashboard, download the **"cambridge_climate_dashboard.html"** file and open in any browser.
+If you just want to look at the Dashboard, download the **"index.html"** file and open in any browser or open https://dariuskos.github.io/Cambridge_Climate_Dashboard/.
 
 This data analysis has been vibe-coded with Claude.ai.
 
@@ -10,7 +10,7 @@ The dashboard has eight tabs:
 
 | Tab | What it shows |
 |-----|---------------|
-| **Annual overview** | Annual or seasonal (winter/spring/summer/autumn) air temperature (mean/max/min), soil temperature (30 cm & 100 cm), and total rainfall. Each with linear or quadratic trend and a projection to 2050. |
+| **Annual overview** | Annual, seasonal or monthly air temperature (mean/max/min), soil temperature (30 cm & 100 cm), and total rainfall. Each with linear or quadratic trend and a projection to 2050. |
 | **Temperature extremes** | 12 indices: warm/hot/very-hot days, heatwave streaks, frost/hard-frost/icing days, tropical nights, last spring frost, and annual record highs/lows. |
 | **Ground extremes** | Soil-temperature extremes at 30 cm and 100 cm: cold/frost/warm/hot-soil days, growing-season length, annual soil max/min. |
 | **Rainfall extremes** | Heavy-rain-day counts, wettest day, share of rain from very wet days, dry/wet spells, and drought-style metrics (longest marginal-rain stretch, dry months). |
